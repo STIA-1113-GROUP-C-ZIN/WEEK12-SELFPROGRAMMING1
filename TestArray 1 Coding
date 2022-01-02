@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Testarray1 {
+
+	public static void main(String[] args) {
+
+		int sum, totsum;
+		
+		int[][] x = {
+				{3,4,5},
+				{5,6,7},
+				{8,9,10}
+				};
+		
+		totsum=0;
+		for(int y=0;y<x.length;y++)
+		{
+			sum=0;
+			
+			for(int z=0;z<x.length;z++)
+		{
+			System.out.println(x[y][z]);
+			sum=sum+x[y][z];
+		}
+		totsum+=sum;
+
+		System.out.println("Print sum" + " " + sum);
+		System.out.println("Print total sum" + " " + totsum);
+		}
+	}
+}
