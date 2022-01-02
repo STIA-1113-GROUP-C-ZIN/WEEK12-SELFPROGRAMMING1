@@ -1,0 +1,13 @@
+
+public class Replace {
+
+	public static void main(String[] args) {
+
+        String S1 = new String("the dog was angry");
+        System.out.println("Original String is ': " + S1);
+        System.out.println("String after replacing 'dog' with 'cat': " + S1.replace("dog", "cat"));
+        System.out.println("String after replacing all 'a' with 'e': " + S1.replace('a', 'e'));
+
+	}
+
+}
