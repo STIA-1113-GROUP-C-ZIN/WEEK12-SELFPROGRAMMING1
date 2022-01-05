@@ -1,0 +1,22 @@
+
+public class IfElseMethod {
+
+		  // Create a checkAge() method with an integer variable called age
+		  static void checkAge(int age) {
+
+		    // If age is less than 18, print "you are not eligible"
+		    if (age < 18) {
+		      System.out.println("You are not eligible - You are not old enough!");
+
+		    // If age is greater than, or equal to, 18, print "you are eligible"
+		    } else {
+		      System.out.println("You are eligible - You are old enough!");
+		    }
+
+		  }
+
+		  public static void main(String[] args) {
+		    checkAge(22); // Call the checkAge method and pass along an age of 22
+	}
+
+}
