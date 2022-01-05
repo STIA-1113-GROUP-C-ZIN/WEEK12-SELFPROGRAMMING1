@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class RemoveMethod {
+
+	public static void main(String[] args) {
+		
+        List<String>  myAlist = new ArrayList<String>();
+        myAlist.add("Name");
+        myAlist.add("Matric No.");
+        myAlist.add("Semester");
+        System.out.println("Original ArrayList : " + myAlist);
+        myAlist.remove("Semester");
+        System.out.println("Modified ArrayList : " + myAlist);
+ 
+        // Demonstrating remove on LinkedList
+        List<String>  myLlist = new LinkedList<String>();
+        myLlist.add("Name");
+        myLlist.add("Matric No.");
+        myLlist.add("Semester");
+        System.out.println("Original LinkedList : " + myLlist);
+        myLlist.remove("Semester");
+        System.out.println("Modified LinkedList : " + myLlist);
+	}
+
+}
